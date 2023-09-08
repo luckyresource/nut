@@ -1,0 +1,64 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /*渐变背景*/
+    background:linear-gradient(200deg,#dfc8e5,#a9c1ed);
+    /*溢出隐藏*/
+    overflow: hidden;
+   
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(-200deg,#e3c5eb,#a9c1ed);
+    border-bottom: 1px silid #ffffff;
+    text-align: left;
+    font-size: 40px;
+    flex-direction: column;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+
+
+.nav {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 650px;
+    font-size: 30px;
+   
+    box-shadow: 0 5px 20px rgba(0,0, 0, 0.1);
+  
+}
+
+
+
+
+ul {
+  
+    width: 400px;
+    height: 100%;
+    float: right;
+    list-style: none;
+    font-size: 20px;
+    font-family:"宋体" ;
+    
+}
